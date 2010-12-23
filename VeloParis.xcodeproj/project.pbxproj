@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100206C8116A89CB00B42DCB /* FavoriteOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 100206C6116A89CB00B42DCB /* FavoriteOn.png */; };
+		10020722116A92EF00B42DCB /* FavoriteOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 10020721116A92EF00B42DCB /* FavoriteOff.png */; };
+		100642C5116D2D2700822AF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 100642C4116D2D2700822AF2 /* Default.png */; };
+		100642DB116D31A200822AF2 /* ICON_SMALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 100642DA116D31A200822AF2 /* ICON_SMALL.png */; };
+		100642F1116D32A900822AF2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 100642F0116D32A900822AF2 /* MainWindow.xib */; };
+		100939CE1166A39300DF1FEB /* ZoomIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 100939CC1166A39300DF1FEB /* ZoomIn.png */; };
+		100939CF1166A39300DF1FEB /* ZoomOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 100939CD1166A39300DF1FEB /* ZoomOut.png */; };
+		10093A5C1166B8EC00DF1FEB /* PinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10093A5B1166B8EC00DF1FEB /* PinAnnotationView.m */; };
+		10113510116BD698008CB8E9 /* CustomizedTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011350F116BD698008CB8E9 /* CustomizedTableCell.m */; };
+		102148EE11696A320064680F /* pinGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 102148E811696A320064680F /* pinGreen.png */; };
+		102148EF11696A320064680F /* pinOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 102148E911696A320064680F /* pinOrange.png */; };
+		102148F011696A320064680F /* pinPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 102148EA11696A320064680F /* pinPurple.png */; };
+		102148F111696A320064680F /* pinRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 102148EB11696A320064680F /* pinRed.png */; };
+		102148F211696A320064680F /* pinYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 102148EC11696A320064680F /* pinYellow.png */; };
+		102148F311696A320064680F /* pinYellowGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 102148ED11696A320064680F /* pinYellowGreen.png */; };
+		1021499511697B270064680F /* ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 1021499411697B270064680F /* ICON.png */; };
+		103E7D0E116548BE00367EE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103E7D0D116548BE00367EE8 /* MapKit.framework */; };
+		103E7D7611654E1E00367EE8 /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = 103E7D7511654E1E00367EE8 /* Location.png */; };
+		103E7D7B11654FA800367EE8 /* Favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 103E7D7A11654FA800367EE8 /* Favorite.png */; };
+		103E7DEA116558BA00367EE8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103E7DE9116558BA00367EE8 /* CoreLocation.framework */; };
+		1D3623260D0F684500981E51 /* VeloParisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* VeloParisAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		5B363A2F1165FA360065FB53 /* List.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B363A2E1165FA360065FB53 /* List.png */; };
+		5B363C3F116624150065FB53 /* ParseStations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B363C3E116624150065FB53 /* ParseStations.m */; };
+		5B363C42116624260065FB53 /* ParseStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B363C41116624260065FB53 /* ParseStation.m */; };
+		5B363D5D1166469C0065FB53 /* StationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B363D5C1166469C0065FB53 /* StationAnnotation.m */; };
+		5B8BA3D6116E1B1E00C37A8C /* ConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B363BF51166203E0065FB53 /* ConnectionDelegate.m */; };
+		5B8E31CA116C7DAD00C87553 /* BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8E31C9116C7DAD00C87553 /* BackGround.png */; };
+		5BD7BDB6116F734F00CC1514 /* UserHeading.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BD7BDB5116F734F00CC1514 /* UserHeading.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100206C6116A89CB00B42DCB /* FavoriteOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriteOn.png; sourceTree = "<group>"; };
+		10020721116A92EF00B42DCB /* FavoriteOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FavoriteOff.png; sourceTree = "<group>"; };
+		100642C4116D2D2700822AF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		100642DA116D31A200822AF2 /* ICON_SMALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON_SMALL.png; sourceTree = "<group>"; };
+		100642F2116D32B000822AF2 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		100939CC1166A39300DF1FEB /* ZoomIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoomIn.png; sourceTree = "<group>"; };
+		100939CD1166A39300DF1FEB /* ZoomOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZoomOut.png; sourceTree = "<group>"; };
+		10093A5A1166B8EC00DF1FEB /* PinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinAnnotationView.h; sourceTree = "<group>"; };
+		10093A5B1166B8EC00DF1FEB /* PinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinAnnotationView.m; sourceTree = "<group>"; };
+		1011350E116BD698008CB8E9 /* CustomizedTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedTableCell.h; sourceTree = "<group>"; };
+		1011350F116BD698008CB8E9 /* CustomizedTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedTableCell.m; sourceTree = "<group>"; };
+		102148E811696A320064680F /* pinGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinGreen.png; sourceTree = "<group>"; };
+		102148E911696A320064680F /* pinOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinOrange.png; sourceTree = "<group>"; };
+		102148EA11696A320064680F /* pinPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinPurple.png; sourceTree = "<group>"; };
+		102148EB11696A320064680F /* pinRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinRed.png; sourceTree = "<group>"; };
+		102148EC11696A320064680F /* pinYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinYellow.png; sourceTree = "<group>"; };
+		102148ED11696A320064680F /* pinYellowGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinYellowGreen.png; sourceTree = "<group>"; };
+		1021499411697B270064680F /* ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON.png; sourceTree = "<group>"; };
+		103E7D0D116548BE00367EE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		103E7D7511654E1E00367EE8 /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
+		103E7D7A11654FA800367EE8 /* Favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorite.png; sourceTree = "<group>"; };
+		103E7D861165522300367EE8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		103E7DE9116558BA00367EE8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* VeloParisAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeloParisAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* VeloParisAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeloParisAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* VeloParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeloParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* VeloParis_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeloParis_Prefix.pch; sourceTree = "<group>"; };
+		5B363A2E1165FA360065FB53 /* List.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List.png; sourceTree = "<group>"; };
+		5B363B071166166C0065FB53 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		5B363BF41166203E0065FB53 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionDelegate.h; path = ../ConnectionDelegate.h; sourceTree = "<group>"; };
+		5B363BF51166203E0065FB53 /* ConnectionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionDelegate.m; path = ../ConnectionDelegate.m; sourceTree = "<group>"; };
+		5B363C3D116624150065FB53 /* ParseStations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseStations.h; sourceTree = "<group>"; };
+		5B363C3E116624150065FB53 /* ParseStations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseStations.m; sourceTree = "<group>"; };
+		5B363C40116624260065FB53 /* ParseStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseStation.h; sourceTree = "<group>"; };
+		5B363C41116624260065FB53 /* ParseStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseStation.m; sourceTree = "<group>"; };
+		5B363D5B1166469C0065FB53 /* StationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationAnnotation.h; sourceTree = "<group>"; };
+		5B363D5C1166469C0065FB53 /* StationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationAnnotation.m; sourceTree = "<group>"; };
+		5B8E31C9116C7DAD00C87553 /* BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround.png; sourceTree = "<group>"; };
+		5BD7BDB5116F734F00CC1514 /* UserHeading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserHeading.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* VeloParis-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VeloParis-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				103E7D0E116548BE00367EE8 /* MapKit.framework in Frameworks */,
+				103E7DEA116558BA00367EE8 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				103E7D861165522300367EE8 /* Constants.h */,
+				5B363B071166166C0065FB53 /* SynthesizeSingleton.h */,
+				5B363C40116624260065FB53 /* ParseStation.h */,
+				5B363C41116624260065FB53 /* ParseStation.m */,
+				5B363C3D116624150065FB53 /* ParseStations.h */,
+				5B363C3E116624150065FB53 /* ParseStations.m */,
+				10093A5A1166B8EC00DF1FEB /* PinAnnotationView.h */,
+				10093A5B1166B8EC00DF1FEB /* PinAnnotationView.m */,
+				5B363D5B1166469C0065FB53 /* StationAnnotation.h */,
+				5B363D5C1166469C0065FB53 /* StationAnnotation.m */,
+				1011350E116BD698008CB8E9 /* CustomizedTableCell.h */,
+				1011350F116BD698008CB8E9 /* CustomizedTableCell.m */,
+				5B363BF41166203E0065FB53 /* ConnectionDelegate.h */,
+				5B363BF51166203E0065FB53 /* ConnectionDelegate.m */,
+				1D3623240D0F684500981E51 /* VeloParisAppDelegate.h */,
+				1D3623250D0F684500981E51 /* VeloParisAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* VeloParis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* VeloParis_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BD7BDB5116F734F00CC1514 /* UserHeading.png */,
+				5B8E31C9116C7DAD00C87553 /* BackGround.png */,
+				10020721116A92EF00B42DCB /* FavoriteOff.png */,
+				100206C6116A89CB00B42DCB /* FavoriteOn.png */,
+				100642C4116D2D2700822AF2 /* Default.png */,
+				1021499411697B270064680F /* ICON.png */,
+				100642DA116D31A200822AF2 /* ICON_SMALL.png */,
+				102148E811696A320064680F /* pinGreen.png */,
+				102148E911696A320064680F /* pinOrange.png */,
+				102148EA11696A320064680F /* pinPurple.png */,
+				102148EB11696A320064680F /* pinRed.png */,
+				102148EC11696A320064680F /* pinYellow.png */,
+				102148ED11696A320064680F /* pinYellowGreen.png */,
+				100939CC1166A39300DF1FEB /* ZoomIn.png */,
+				100939CD1166A39300DF1FEB /* ZoomOut.png */,
+				5B363A2E1165FA360065FB53 /* List.png */,
+				103E7D7A11654FA800367EE8 /* Favorite.png */,
+				103E7D7511654E1E00367EE8 /* Location.png */,
+				100642F0116D32A900822AF2 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* VeloParis-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				103E7D0D116548BE00367EE8 /* MapKit.framework */,
+				103E7DE9116558BA00367EE8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* VeloParis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VeloParis" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeloParis;
+			productName = VeloParis;
+			productReference = 1D6058910D05DD3D006BFB54 /* VeloParis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VeloParis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* VeloParis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100642F1116D32A900822AF2 /* MainWindow.xib in Resources */,
+				103E7D7611654E1E00367EE8 /* Location.png in Resources */,
+				103E7D7B11654FA800367EE8 /* Favorite.png in Resources */,
+				5B363A2F1165FA360065FB53 /* List.png in Resources */,
+				100939CE1166A39300DF1FEB /* ZoomIn.png in Resources */,
+				100939CF1166A39300DF1FEB /* ZoomOut.png in Resources */,
+				102148EE11696A320064680F /* pinGreen.png in Resources */,
+				102148EF11696A320064680F /* pinOrange.png in Resources */,
+				102148F011696A320064680F /* pinPurple.png in Resources */,
+				102148F111696A320064680F /* pinRed.png in Resources */,
+				102148F211696A320064680F /* pinYellow.png in Resources */,
+				102148F311696A320064680F /* pinYellowGreen.png in Resources */,
+				1021499511697B270064680F /* ICON.png in Resources */,
+				100206C8116A89CB00B42DCB /* FavoriteOn.png in Resources */,
+				10020722116A92EF00B42DCB /* FavoriteOff.png in Resources */,
+				5B8E31CA116C7DAD00C87553 /* BackGround.png in Resources */,
+				100642C5116D2D2700822AF2 /* Default.png in Resources */,
+				100642DB116D31A200822AF2 /* ICON_SMALL.png in Resources */,
+				5BD7BDB6116F734F00CC1514 /* UserHeading.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* VeloParisAppDelegate.m in Sources */,
+				5B363C3F116624150065FB53 /* ParseStations.m in Sources */,
+				5B363C42116624260065FB53 /* ParseStation.m in Sources */,
+				5B363D5D1166469C0065FB53 /* StationAnnotation.m in Sources */,
+				10093A5C1166B8EC00DF1FEB /* PinAnnotationView.m in Sources */,
+				10113510116BD698008CB8E9 /* CustomizedTableCell.m in Sources */,
+				5B8BA3D6116E1B1E00C37A8C /* ConnectionDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		100642F0116D32A900822AF2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* English */,
+				100642F2116D32B000822AF2 /* French */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VeloParis_Prefix.pch;
+				INFOPLIST_FILE = "VeloParis-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = VeloParis;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VeloParis_Prefix.pch;
+				INFOPLIST_FILE = "VeloParis-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = VeloParis;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator4.1]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphonesimulator4.1]" = "";
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mengke WANG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "89F04576-A1E0-4988-8740-2F47648DA8DA";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VeloParis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VeloParis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
